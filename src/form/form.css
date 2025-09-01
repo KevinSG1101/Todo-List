@@ -1,0 +1,33 @@
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+label {
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+button {
+  background-color: #28a745;
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #218838;
+}
